@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F9FF"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="24dp"
+            android:background="#B0E0E6"
+            android:elevation="4dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="👤"
+                android:textSize="42sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MY CV"
+                android:textColor="#234A6B"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="My Personal Profile"
+                android:textColor="#234A6B"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_marginTop="16dp"
+            android:background="#FFFFFF"
+            android:elevation="3dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PERSONAL DETAILS"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#234A6B" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Name: PERIS AKINYI\nCourse: ICT Technician Level 6\nYear: 2025-2027"
+                android:textSize="16sp"
+                android:lineSpacingExtra="6dp"
+                android:textColor="#333333" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_marginTop="12dp"
+            android:background="#FFFFFF"
+            android:elevation="3dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ABOUT ME"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#234A6B" />
+
+
+
+            <TextView
+                android:id="@+id/txtAbout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="#FFFFFF"
+                android:padding="16dp"
+                android:text="I am a motivated student who enjoys learning, creativity, teamwork, technology and solving problems. My goal is to develop my skills and make a positive impact in society."
+                android:textColor="#334155"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="EDUCATION"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#234A6B" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="1.College: Kajiado National Polytechnic\n2. High school:Rombo Girls Secondary"
+                android:textSize="16sp"
+                android:lineSpacingExtra="6dp"
+                android:textColor="#333333" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MY SKILLS"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#234A6B" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="1. HTML and web design\n2. Java programming\n3. Communication\n4. Java Programming\n5.Database Management\n6. Android Studio\n7. Computer Troubleshooting\n8. Computer Literacy"
+                android:textSize="16sp"
+                android:lineSpacingExtra="6dp"
+                android:textColor="#333333" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_marginTop="12dp"
+            android:background="#FFFFFF"
+            android:elevation="3dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MY ACHIEVEMENTS"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#234A6B" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="• Completed coursework in Information Technology\n• Designing simple Android apps\n• MyCV Android Application"
+                android:textSize="16sp"
+                android:lineSpacingExtra="6dp"
+                android:textColor="#334155" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="EXPERIENCE"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:lineSpacingExtra="6dp"
+                android:textColor="#234A6B" />
+
+
+            <TextView
+                android:id="@+id/txtExperience"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:layout_marginTop="10dp"
+                android:background="#FFFFFF"
+                android:text="1.Class assignments and practical projects\n2.Group work and volunteer activities"
+                android:textSize="16sp"
+                android:lineSpacingExtra="6dp"
+                android:textColor="#333333" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="HOBBIES"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:lineSpacingExtra="6dp"
+                android:textColor="#234A6B" />
+
+
+            <TextView
+                android:id="@+id/txtHobbies"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:layout_marginTop="10dp"
+                android:text="• Coding\n• Watching\n• Music\n• Sports\n• Travelling\n• Creative activities"
+                android:textSize="16sp"
+                android:lineSpacingExtra="6dp"
+                android:textColor="#333333" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="20dp"
+                android:text="Thank you for viewing my CV!"
+                android:textSize="15sp"
+                android:textColor="#555577" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnContact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="CONTACT ME"
+            android:textColor="#234A6B"
+            android:backgroundTint="#89CFF0" />
+
+    </LinearLayout>
+</ScrollView>
